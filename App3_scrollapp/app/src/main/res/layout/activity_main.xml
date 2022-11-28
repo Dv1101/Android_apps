@@ -21,11 +21,12 @@
     <HorizontalScrollView
         android:layout_width="411dp"
         android:layout_height="744dp"
+        android:layout_marginTop="45dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView"
         app:layout_constraintVertical_bias="0.448"
         tools:ignore="SpeakableTextPresentCheck">
 
@@ -37,7 +38,7 @@
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="wrap_content"
-                android:layout_height="701dp"
+                android:layout_height="734dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/team7" />
 
