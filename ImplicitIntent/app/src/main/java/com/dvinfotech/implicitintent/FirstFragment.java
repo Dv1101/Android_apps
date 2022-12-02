@@ -60,7 +60,7 @@ public class FirstFragment extends Fragment {
 
                 Uri webpage = Uri.parse(urlText);
                 Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
-                if (intent.resolveActivity(requireActivity().getPackageManager()) != null) {
+                if (intent.resolveActivity(getActivity().getPackageManager()) != null) {
                     startActivity(intent);
                 }
             }

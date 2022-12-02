@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <queries>
-        <!-- Browser -->
+        <!-- Browser code for INTENT -->
         <intent>
             <action android:name="android.intent.action.VIEW" />
             <data android:scheme="http" />
@@ -35,5 +35,4 @@
                 android:value="" />
         </activity>
     </application>
-
 </manifest>
