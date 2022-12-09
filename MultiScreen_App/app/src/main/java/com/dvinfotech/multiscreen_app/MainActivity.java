@@ -28,4 +28,12 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra(EXTRA_NAME, nameText);
         startActivity(intent);
     }
-}
+
+    public void clear_screen(View view)
+    {
+                name.setText(" ");
+                Toast.makeText(MainActivity.this, "Data Cleared", Toast.LENGTH_SHORT).show();
+            }
+    }
+
+
