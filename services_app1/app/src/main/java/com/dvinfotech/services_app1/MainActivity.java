@@ -21,20 +21,6 @@ public class MainActivity extends AppCompatActivity {
         startb = findViewById(R.id.startb);
         stopb = findViewById(R.id.stopb);
 
-//        startb.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startService();
-//            }
-//        });
-//
-//        stopb.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                stopService();
-//            }
-//        });
-
     }
 
     public void startService(View view){
