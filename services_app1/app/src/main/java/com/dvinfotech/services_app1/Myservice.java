@@ -22,10 +22,19 @@ public class Myservice extends Service {
 
     public int onStartCommand(Intent intent, int flags, int startId){
         Toast.makeText(this, "Service Started", Toast.LENGTH_SHORT).show();
-        player = MediaPlayer.create(this, Settings.System.DEFAULT_RINGTONE_URI);
-        player.setLooping(true);
-        player.start();
+        Runnable runnable = new Runnable() {
+            @Override
+            public void run() {
+                player = MediaPlayer.create(getBaseContext(), Settings.System.DEFAULT_RINGTONE_URI);
+                player.setLooping(true);
+                player.start();
+
+            }
+        };
+        Thread thread = new Thread(runnable);
+        thread.start();
         return START_STICKY;
+
     }
 
     public void onDestroy(){
