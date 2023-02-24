@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MultiScreen_App</string>
+    <string name="enter_you_name">Enter you Name</string>
+    <string name="submit">Submit</string>
+</resources>

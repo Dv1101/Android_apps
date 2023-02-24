@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/search"
+        android:title="Search Here" />
+    <item
+        android:id="@+id/filter"
+        android:title="Apply Filter" />
+    <item
+        android:id="@+id/wishlist"
+        android:title="My Wishlist" />
+    <item
+        android:id="@+id/MyCart"
+        android:title="My Cart" />
+    <item
+        android:id="@+id/My_account"
+        android:title="My Account" />
+</menu>

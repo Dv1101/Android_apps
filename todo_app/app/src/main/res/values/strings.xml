@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">todo_app</string>
+    <string name="placeholder">placeholder</string>
+    <string name="buttonText">vuttontext</string>
+</resources>
